@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="responsive.css">
+    <title>PortFolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar row-after">
+        <div class="logo"><img src="Asset/logo.main-remove.png" alt="" /></div>
+        <div class="link-section">
+          <ul class="link-list">
+            <li class="li-tags"><a href="" class="links-tags">Home</a></li>
+            <li class="li-tags"><a href="" class="links-tags">About</a></li>
+            <li class="li-tags"><a href="" class="links-tags">Blog</a></li>
+            <li class="li-tags"><a href="" class="links-tags">Services</a></li>
+            <li class="li-tags">
+              <a href="" class="links-tags">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn-section">
+          <div class="icon-section">
+            <div class="icon-div"><i class="fa-brands fa-instagram"></i></div>
+            <div class="icon-div"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="icon-div"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="icon-div"><i class="fa-brands fa-whatsapp"></i></div>
+          </div>
+          <button class="menu-btn" onclick="openNav()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div id="side-nav" class="slide-menu">
+          <button class="close-btn" onclick="closeNav()">&times;</button>
+          <a href="" class="slide-link">Home</a>
+          <a href="" class="slide-link">About</a>
+          <a href="" class="slide-link">Service</a>
+          <a href="" class="slide-link">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="back-ground-image row-after">
+      <div class="overlay"></div>
+    </div>
+    <div class="back-container row-after">
+      <div class="container row-after">
+        <div id="item1" class="item2-text row-after">
+          <p class="devloper-text">
+            Hi, I'M ROSHAN !<br />
+            CREATIVE
+          </p>
+          <p class="color-text"></p>
+          <p class="small-text">
+            I'm a passionate UI/UX designer with a mission to create delightful
+            and intuitive digital experiences. With a strong foundation in
+            design principles and a keen eye for detail, I specialize in
+            translating complex ideas into user-friendly interfaces that
+            captivate and engage.
+          </p>
+
+          <Btn id="download-cv"> Download-CV </Btn>
+        </div>
+        <div id="item2" class="item2-image row-after">
+          <div class="dev-image">
+            <img
+              src="https://specbitsgroup.com/demo/public/portfolio/images/rahul.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="my-service-row row-after">
+        <div class="small-heading-div">MY SERVICE</div>
+        <div class="big-heading">
+          Crafting stories through <br />
+          design and innovation
+        </div>
+      </div>
+      <div class="item-3-row row-after">
+        <div class="item-3">
+          <div class="item-3-image-box">
+            <img src="Asset/bg-removebg-preview.png" alt="" />
+          </div>
+
+          <div class="item-3Name">WEBSITE DESIGN</div>
+          <div class="item-3-description">
+            Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut
+            odit auting fugit sed thisnquia consequuntur magni dolores eos
+            designer heresm qui
+          </div>
+        </div>
+        <div class="item-3">
+          <div class="item-3-image-box">
+            <img src="Asset/bg-removebg-preview.png" alt="" />
+          </div>
+
+          <div class="item-3Name">LOGO DESIGN</div>
+          <div class="item-3-description">
+            Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut
+            odit auting fugit sed thisnquia consequuntur magni dolores eos
+            designer heresm qui
+          </div>
+        </div>
+        <div class="item-3">
+          <div class="item-3-image-box">
+            <img src="Asset/bg-removebg-preview.png" alt="" />
+          </div>
+
+          <div class="item-3Name">CODER</div>
+          <div class="item-3-description">
+            Nemo design enim ipsam voluptatem quim voluptas sit aspernatur aut
+            odit auting fugit sed thisnquia consequuntur magni dolores eos
+            designer heresm qui
+          </div>
+        </div>
+      </div>
+
+      <div class="about-me-section">
+        <div class="about-me-textcontent">
+          <div class="ABOUT-ME-heading-div">ABOUT ME</div>
+          <div class="ABOUT-ME-big-heading">
+            Transforming visions into exceptional portfolios
+          </div>
+          <p class="ABOUT-ME-small-text">
+            I'm a passionate UI/UX designer with a mission to create delightful
+            and intuitive digital experiences. With a strong foundation in
+            design principles and a keen eye for detail, I specialize in
+            translating complex ideas into user-friendly interfaces that
+            captivate and engage.
+          </p>
+          <Btn id="download-cv"> Download-CV </Btn>
+        </div>
+
+        <div class="about-image-section">
+          <div class="about-image">
+            <img src="Asset/crop-image-removebg-preview.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <div class="form-text-section">
+          <div class="form-heading-text">
+            <span class="form-text-design"> Design </span>
+            and Innovation
+          </div>
+          <p class="ABOUT-ME-small-text">
+            I'm a passionate UI/UX designer with a mission to create delightful
+            and intuitive digital experiences. With a strong foundation in
+            design principles and a keen eye for detail, I specialize in
+            translating complex ideas into user-friendly interfaces that
+            captivate and engage.
+          </p>
+        </div>
+
+        <div class="submit-form">
+          <div class="get-touch-big-text">GET TOUCH ME?</div>
+          <p class="get-in-touch-text">
+            For your car we will do everything advice design in us repairs and
+            maintenance We are the some preferred.
+          </p>
+          <input class="input" id="name" type="text" placeholder="Your Name" />
+          <input
+            class="input"
+            id="email"
+            type="text"
+            placeholder="Your Email"
+          />
+          <input
+            class="input"
+            id="phone"
+            type="text"
+            placeholder="Your Phone"
+          />
+          <input
+            class="input"
+            id="messege"
+            type="text"
+            placeholder="Your Messege"
+          />
+
+          <input id="submit-btn" type="Submit" />
+        </div>
+      </div>
+
+      <div class="my-projects-section">
+        <div class="project-heading">
+          <div class="ABOUT-ME-heading-div">RECENT PROJECT</div>
+          <div class="ABOUT-ME-big-heading">Here Are My Recent Project</div>
+        </div>
+
+        <div class="projects-row">
+          <div class="item-3">
+            <div class="item-3-image-box">
+              <img src="Asset/project-1 Image.png" alt="" />
+            </div>
+            <div class="Webpage-name">EDUCATE</div>
+            <div class="item-3-description">
+              This WebPage is made by HTML CSS & JS And Its my Recent Project
+              This Project Is Based on an Eduction Cosultancy Website.To See the
+              full webpage Click on the Button Which is given Below
+            </div>
+            <a class="view" href="">View</a>
+          </div>
+
+          <div class="item-3">
+            <div class="item-3-image-box">
+              <img src="Asset/project-2.png" alt="" />
+            </div>
+            <div class="Webpage-name">E-Trade</div>
+            <div class="item-3-description">
+              This WebPage is made by HTML & CSS And Its my Recent Project This
+              Project Is Based on online E-Commerce Website.To See the full
+              webpage Click on the Button Which is given Below
+            </div>
+            <a class="view" href="">View</a>
+          </div>
+
+          <div class="item-3">
+            <div class="item-3-image-box">
+              <img src="Asset/project-3.png" alt="" />
+            </div>
+            <div class="Webpage-name">PORTFOLIO</div>
+            <div class="item-3-description">
+              This WebPage is made by HTML CSS & JS And Its my Recent Project
+              This Project Is Based on Portfolio Website.To See the full webpage
+              Click on the Button Which is given Below
+            </div>
+            <a class="view" href="">View</a>
+          </div>
+
+          <div class="item-3">
+            <div class="item-3-image-box">
+              <img src="Asset/project-3.png" alt="" />
+            </div>
+            <div class="Webpage-name">PORTFOLIO</div>
+            <div class="item-3-description">
+              This WebPage is made by HTML CSS & JS And Its my Recent Project
+              This Project Is Based on Portfolio Website.To See the full webpage
+              Click on the Button Which is given Below
+            </div>
+            <a class="view" href="">View</a>
+          </div>
+
+          <div class="item-3">
+            <div class="item-3-image-box">
+              <img src="Asset/project-4.png" alt="" />
+            </div>
+            <div class="Webpage-name">AMAZON CLONE</div>
+            <div class="item-3-description">
+              This WebPage is made by HTML CSS & JS And Its my Recent Project
+              This Project Is Based on Amazon Clone Website.To See the full
+              webpage Click on the Button Which is given Below
+            </div>
+            <a class="view" href="">View</a>
+          </div>
+
+          <div class="item-3">
+            <div class="item-3-image-box">
+              <img src="Asset/project-3.png" alt="" />
+            </div>
+            <div class="Webpage-name">PORTFOLIO</div>
+            <div class="item-3-description">
+              This WebPage is made by HTML CSS & JS And Its my Recent Project
+              This Project Is Based on Portfolio Website.To See the full webpage
+              Click on the Button Which is given Below
+            </div>
+            <a class="view" href="">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="Email-row">
+        <div class="new-settler-text">SUBSCRIBE MY NEWSLETTER</div>
+        <div class="email">
+          <input
+            class="email-input"
+            id="email"
+            type="text"
+            placeholder="Your Email"
+          />
+          <button class="notify-me">Notify Now</button>
+        </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <div class="footer-item3">
+            <div class="footer-logo">
+              <i class="fa-solid fa-map-pin"></i>
+            </div>
+  
+            <div class="footer-address">
+              <h2>Address</h2>
+              Sri Sai Krishna Apartment, East Boring Canal Road, Patna - 800001
+            </div>
+          </div>
+
+          <div class="footer-item3">
+            <div class="footer-logo">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+  
+            <div class="footer-address">
+              <h2>Lets Talk Us</h2>
+              70045 25294
+            </div>
+          </div>
+
+          <div class="footer-item3">
+            <div class="footer-logo">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+  
+            <div class="footer-address">
+              <h2>Send -Email</h2>
+              info@specbits.com
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
